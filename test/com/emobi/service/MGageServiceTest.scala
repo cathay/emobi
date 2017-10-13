@@ -19,6 +19,7 @@ class MGageServiceTest extends Specification with Mockito {
   import com.emobi.service.MGageService._
   import scala.concurrent.ExecutionContext.Implicits.global
 
+  //TODO The test is even successful but get exception logged when run. Need to investigate.
   "MGageService" should {
     "get proper status when payment gateway works fine" in {
 
