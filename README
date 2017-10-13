@@ -1,0 +1,9 @@
+There are some TODOS and FIXMEs that we need to do on real production cycle:
+
+ - Add Error Handler tests
+ - Add integration with third-party test service if any
+ - Separate test resources vs PROD resources
+ - Extract test data to files
+ - Add proper logging mechanism
+ - Might need a security filter
+ - Extract message to use play.i18n
